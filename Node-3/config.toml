@@ -1,0 +1,17 @@
+data-path="/usr/app/data"
+
+bootnodes=["enode://ba87437a0e3c2c156013cc5581d88043e8005684c99ce5c59490938208c71d7058b7af27b401d7241f2027ee71ac9021c11a8cbc2717f8cf0fc5af64212114a1@127.0.0.1:30305"]
+
+rpc-http-enabled=true
+rpc-http-api=["ETH","NET","QBFT"]
+rpc-http-port=8549
+
+p2p-port=30307
+
+host-allowlist=["*"]
+
+rpc-http-cors-origins=["all"]
+
+genesis-file="/usr/app/genesis.json"
+
+min-gas-price=0
